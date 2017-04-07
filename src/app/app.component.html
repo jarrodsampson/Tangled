@@ -1,0 +1,9 @@
+<h1>
+  {{title}}
+</h1>
+
+<ul class="heroes">
+  <li *ngFor="let hero of testimonies; let i = index;">
+    <p class="">{{i}} - {{hero.id}} - {{hero.name}}</p>
+  </li>
+</ul>
